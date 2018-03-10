@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.weiyingzhu.inclassassignment07.AnimalList"
+    android:orientation="vertical"
+    android:freezesText="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="name"
+
+            />
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="age"
+            />
+
+        <CheckBox
+            android:id="@+id/eat"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="eatable"/>
+
+        <Button
+            android:id="@+id/adding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADD ANOTHER PERSON"
+            android:onClick="submit"/>
+    </LinearLayout>
+
+</LinearLayout>
